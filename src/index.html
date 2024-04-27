@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/output.css" />
+    <title>Ilmiya</title>
+  </head>
+  <body class="font-body text-body">
+    <main class="px-5 max-w-[1440px] m-auto">
+      <!-- Header Section start -->
+
+      <header
+        class="w-full md:px-8 lg:px-30 flex items-center justify-between py-4"
+      >
+        <img src="./assets/icon/logo.png" alt="Logo icon" />
+        <nav class="hidden md:block">
+          <ul class="flex items-center gap-10">
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">Docs</a>
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">Pricing</a>
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hidden md:flex gap-4">
+          <button
+            class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full bg-regal-blue text-white duration-500"
+          >
+            Try Free
+          </button>
+          <button
+            class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full text-regal-blue hover:bg-regal-blue hover:text-white duration-500"
+          >
+            Book a Demo
+          </button>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 md:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+
+        <!-- Responsive Mobile nav start -->
+        <div class="hidden absolute w-full h-screen bg-slate-400 top-0 left-0">
+          <div class="bg-slate-400 bg-transparent w-full mt-5">
+            <img
+              class="lg:hidden m-auto"
+              src="./assets/icon/logo.png"
+              alt="Logo icon"
+            />
+          </div>
+
+          <nav class="lg:hidden w-full">
+            <ul class="flex flex-col items-center gap-5 mt-5">
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Blog</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Docs</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="lg:hidden flex flex-col gap-4 p-5">
+            <button
+              class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full bg-regal-blue text-white duration-500"
+            >
+              Try Free
+            </button>
+            <button
+              class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full text-black hover:bg-regal-blue hover:text-white duration-500"
+            >
+              Book a Demo
+            </button>
+          </div>
+        </div>
+        <!-- Responsive Mobile nav end -->
+      </header>
+
+      <!-- Header Section end -->
+      <!-- Footer Section start -->
+
+      <footer class="w-full pt-[75px] pb-8">
+        <div
+          class="md:px-8 lg:px-30 pb-8 lg:pb-0 lg:flex items-start justify-between border-b border-border-1/10 font-normal text-base"
+        >
+          <div class="lg:w-1/2 w-full">
+            <img class="pb-5" src="./assets/icon/logo.png" alt="Logo image" />
+            <div class="flex items-start gap-5 pb-6">
+              <i
+                ><img src="./assets/icon/location.png" alt="location icon"
+              /></i>
+              <p>
+                3800 American Blvd West <br />
+                Suite 1500 Bloomington, MN 55431
+              </p>
+            </div>
+            <div class="flex items-start gap-5 pb-8">
+              <i><img src="./assets/icon/phone.png" alt="Phone icon" /></i>
+              <h4>+1 866-545-6492</h4>
+            </div>
+            <div class="flex items-center gap-3 pb-16">
+              <i
+                ><img src="./assets/icon/facebook.png" alt="facebook icon"
+              /></i>
+              <i><img src="./assets/icon/twitter.png" alt="twitter icon" /></i>
+              <i
+                ><img src="./assets/icon/linkedin.png" alt="linkedin icon"
+              /></i>
+              <i
+                ><img src="./assets/icon/instagram.png" alt="instagram icon"
+              /></i>
+            </div>
+          </div>
+          <div
+            class="lg:w-1/2 w-full flex sm:flex-row flex-col items-center sm:items-start justify-between gap-8"
+          >
+            <div
+              class="flex flex-col gap-4 items-center md:items-start justify-center"
+            >
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Company</a
+              >
+              <a href="#">About Us</a>
+              <a href="#">Pricing</a>
+            </div>
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Resources
+              </a>
+              <a href="#">Support</a>
+              <a href="#">Sales</a>
+              <a href="#">Stauts</a>
+            </div>
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Legal
+              </a>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">COPPA</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:px-8 lg:px-30 sm:flex items-center justify-between pt-8 text-center"
+        >
+          <div class="sm:w-1/2 pb-4 sm:pb-0 sm:text-start">
+            <p>&#169;2023 Ilmiya, Inc.</p>
+          </div>
+          <div class="sm:w-1/2 flex sm:flex-row flex-col gap-4 sm:gap-8">
+            <p>Privacy Policy</p>
+            <p>Terms &#38; Conditions</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Footer Section end -->
+    </main>
+  </body>
+</html>
