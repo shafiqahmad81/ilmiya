@@ -7,6 +7,7 @@ module.exports = {
         body: ['"DM Sans", sans-serif'],
       },
       spacing: {
+        18: "4.375rem", // 70px
         30: "7.5rem", // 120px
         62: "15.75rem", //252px
       },
