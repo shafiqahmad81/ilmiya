@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ['"DM Sans", sans-serif'],
+        ui: ['"Segoe UI", sans-serif'],
       },
       spacing: {
         18: "4.375rem", // 70px
@@ -18,6 +19,8 @@ module.exports = {
         skyline: "#3F3261",
         "sky-1": "#4186F3",
         folder: "#F1C159",
+        "night-sky": "#292D34",
+        "slate-tint": "#7C828D",
       },
       fontSize: {
         "1.2xl": "1.063rem", //17px
