@@ -3,6 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        mobile: "440px",
+      },
+      blur: {
+        "2.5xl": "55px",
+      },
       fontFamily: {
         body: ['"DM Sans", sans-serif'],
         ui: ['"Segoe UI", sans-serif'],
@@ -23,6 +29,7 @@ module.exports = {
         "slate-tint": "#7C828D",
       },
       fontSize: {
+        "extra-xs": "0.813rem", //17px
         "1.2xl": "1.063rem", //17px
         "1.5xl": "1.375rem", //22px
         "4.5xl": "2.5rem", //40px
@@ -32,6 +39,7 @@ module.exports = {
         12: "3rem", //48px
       },
       borderRadius: {
+        "3.5xl": "2rem", //2px
         "4xl": "2.25rem", //36px
         "5xl": "2.5rem", //40px
       },
