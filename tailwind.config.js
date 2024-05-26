@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        mobile: "440px",
+        mobile: "450px",
       },
       blur: {
         "2.5xl": "55px",
@@ -14,6 +14,8 @@ module.exports = {
         ui: ['"Segoe UI", sans-serif'],
       },
       spacing: {
+        5.5: "1.375rem", // 22px
+        15: "3.75rem", // 60px
         18: "4.375rem", // 70px
         30: "7.5rem", // 120px
         62: "15.75rem", //252px

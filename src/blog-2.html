@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Ilmiya</title>
+  </head>
+  <body class="font-body text-body">
+    <main class="px-5 max-w-[1440px] m-auto">
+      <!-- Header Section start -->
+
+      <header
+        class="w-full md:px-8 xl:px-30 flex items-center justify-between py-4"
+      >
+        <a href="#"><img src="./assets/icon/logo.png" alt="Logo icon" /></a>
+
+        <nav class="hidden md:block">
+          <ul class="flex items-center gap-10">
+            <li>
+              <a class="text-sm font-bold leading-4" href="./index.html"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4 text-regal-blue" href="#"
+                >Docs</a
+              >
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">Pricing</a>
+            </li>
+            <li>
+              <a class="text-sm font-bold leading-4" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hidden md:flex gap-4">
+          <button
+            class="px-[23.5px] py-3 border text-sm font-bold leading-[16.8px] border-[#4083F1] rounded-full bg-regal-blue text-white duration-500"
+          >
+            Try Free
+          </button>
+          <button
+            class="px-[23.5px] py-3 border text-sm font-bold leading-[16.8px] border-[#4083F1] rounded-full text-regal-blue hover:bg-regal-blue hover:text-white duration-500"
+          >
+            Read More
+          </button>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 md:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+
+        <!-- Responsive Mobile nav start -->
+        <div class="hidden absolute w-full h-screen bg-slate-400 top-0 left-0">
+          <div class="bg-slate-400 bg-transparent w-full mt-5">
+            <img
+              class="lg:hidden m-auto"
+              src="./assets/icon/logo.png"
+              alt="Logo icon"
+            />
+          </div>
+
+          <nav class="lg:hidden w-full">
+            <ul class="flex flex-col items-center gap-5 mt-5">
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Blog</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Docs</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="text-sm font-bold leading-4" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="lg:hidden flex flex-col gap-4 p-5">
+            <button
+              class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full bg-regal-blue text-white duration-500"
+            >
+              Try Free
+            </button>
+            <button
+              class="px-6 py-3 border text-sm font-bold leading-4 border-[#4083F1] rounded-full text-black hover:bg-regal-blue hover:text-white duration-500"
+            >
+              Book a Demo
+            </button>
+          </div>
+        </div>
+        <!-- Responsive Mobile nav end -->
+      </header>
+
+      <!-- Header Section end -->
+      <!-- Project management Section start -->
+
+      <div
+        class="md:px-10 xl:px-30 lg:flex items-start justify-between mt-20 pb-18 relative"
+      >
+        <div class="lg:w-[calc(100%-53.4482%)] pr-3 mt-16">
+          <h6
+            class="text-base leading-5 font-semibold text-regal-blue font-ui uppercase"
+          >
+            Project Management
+          </h6>
+          <h1 class="font-bold text-4xl md:text-5.5xl md:leading-[67.2px] mt-9">
+            Scrum Master vs. Project Manager : What's the Difference?
+          </h1>
+          <div
+            class="mobile:flex divide-y mobile:divide-y-0 mobile:divide-x divide-black mt-5 items-center justify-between max-w-[490px]"
+          >
+            <div class="flex items-center gap-[14px] p-3 mobile:p-0">
+              <img src="./assets/icon/erica.png" alt="logo image" />
+              <div>
+                <h3
+                  class="text-sm leading-[14px] font-bold text-night-sky mb-1"
+                >
+                  Sarah Burner
+                </h3>
+                <h6 class="text-[11px] leading-3 text-night-sky font-normal">
+                  ClickUp Contributor
+                </h6>
+              </div>
+            </div>
+
+            <h3
+              class="mobile:pl-[4.0817%] xl:pl-[8.1632%] text-sm font-semibold leading-[18px] text-night-sky p-3 mobile:p-0"
+            >
+              February 6, 2024
+            </h3>
+            <h3
+              class="mobile:pl-[4.0817%] xl:pl-[8.1632%] text-sm font-semibold leading-[18px] text-night-sky p-3 mobile:p-0"
+            >
+              10min read
+            </h3>
+          </div>
+
+          <div class="flex items-center gap-3 pb-16 mt-14">
+            <i
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              ><img src="./assets/icon/social-twitter.png" alt="facebook icon"
+            /></i>
+
+            <i
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              ><img src="./assets/icon/social-linkedin.png" alt="facebook icon"
+            /></i>
+            <i
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              ><img src="./assets/icon/social-facebook.png" alt="facebook icon"
+            /></i>
+            <i
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              ><img src="./assets/icon/share-icon.png" alt="facebook icon"
+            /></i>
+          </div>
+        </div>
+        <div class="lg:w-[53.4482%] flex justify-center">
+          <div
+            class="bg-[#E8F0FE] flex items-center justify-center relative w-full max-w-[620px] py-20 rounded-5xl"
+          >
+            <img
+              class="z-20 relative"
+              src="./assets/icon/blog-manager.png "
+              alt="project"
+            />
+          </div>
+        </div>
+        <img
+          class="absolute -left-5 bottom-10"
+          src="./assets/icon/Titik-titik-blog.png"
+          alt="Titik-titik"
+        />
+      </div>
+
+      <!-- Project management Section end -->
+      <!-- content section start -->
+      <div class="md:px-10 xl:px-30 pb-16">
+        <div class="flex lg:flex-row flex-col items-start mt-12">
+          <div class="w-full order-2 lg:order-1 lg:w-[63.5344%] lg:mr-[2.069%]">
+            <div
+              class="border border-border-1/20 rounded-3.5xl px-9 pt-11 pb-15 mb-6 font-ui"
+            >
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                We know! As a product manager, you want to spend your days
+                focusing solely on user needs and crafting delightful features,
+                instead of getting bogged down in spreadsheets and processes.
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                But that’s hardly the case. 
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                Despite the arsenal of
+                <a class="text-[#7B42D1]" href="#"> product management tools</a
+                >, you feel overwhelmed by the deluge of systems,
+                <a class="text-[#7B42D1]" href="#"> product management jargon</a
+                >, processes, tasks, and, of course, heaps of new data.
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                There’s no getting around all of it, of course, considering it’s
+                key to crafting a product that truly resonates with your
+                audience. 
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                That’s exactly where a dedicated product operations manager can
+                step in. They take the load off of product managers and help
+                take care of the day-to-day operations of the product team.
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky">
+                Let’s see how optimizing product operations will help your team
+                focus on creating products and experiences that customers love.
+              </p>
+            </div>
+            <div
+              class="border border-border-1/20 rounded-3.5xl px-9 pt-6 pb-15 font-ui"
+            >
+              <h2 class="text-3xl font-bold leading-[60px] text-night-sky">
+                Understanding Product Operations
+              </h2>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                Product operations ensure a product’s successful development,
+                release, and performance. It acts as a bridge between the
+                product team’s ideas and the practical execution of those
+                ideas. 
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                Efficient product ops are the bedrock of successful
+                <a class="text-[#7B42D1]" href="#"> product management.</a> 
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                What do we mean by product operations? Here’s a quick rundown of
+                what a product operations team tackles:
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                Builds and streamlines the workflows that move a product from
+                idea to shelf with project management, data tracking, and
+                communication pipelines
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky mb-3">
+                Chooses and implements software and systems for bug tracking,
+                analytics, and automation to empower product teams 
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky">
+                Identifies bottlenecks, refines processes, and constantly tweaks
+                things to ensure smooth launch and post-launch phases
+              </p>
+              <p class="font-normal text-lg leading-7 text-night-sky">
+                Analyze usage patterns, customer feedback, and performance
+                metrics to understand how well the product strategy is working
+                and identify areas for improvement
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full flex order-1 lg:order-2 mb-5 lg:mb-0 flex-col lg:w-[calc(100%-63.5344%)] bg-regal-blue border border-border-1/20 rounded-[32px] pt-8 pb-24 px-2 md:px-5 lg:px-7 font-ui"
+          >
+            <h6 class="font-bold text-xs leading-3 text-white ml-3">
+              Table of Contents
+            </h6>
+            <ul class="mt-6">
+              <li
+                class="bg-white font-semibold py-3 pl-7 pr-2 rounded-lg shadow-sm text-slate-tint text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-[#7B68EE]"
+              >
+                <a href="#">Understanding Product Operations</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">Importance of Product Operations</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">What Does a Product Operations Manager Do?</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">1. Creating a solid foundation</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">2. Monitoring the build process</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">3. Championing collaboration and alignment</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">4. Driving continuous improvement</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">5. Ensuring a safe launch</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">The Benefits of Having a Product Operations Team</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">10 Strategies to Optimize Product Operations</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">1. Define clear processes and roadmaps</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#"
+                  >2. Harness the power of data analytics for informed
+                  decisions</a
+                >
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#"
+                  >3. Empower your team with automation and advanced tools</a
+                >
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#">4. Build a unified team through collaboration</a>
+              </li>
+              <li
+                class="font-normal py-3 pl-7 pr-2 text-white text-sm leading-5 relative before:absolute before:top-1/2 before:left-3 before:-translate-y-1/2 before:content-['>'] before:text-white/30"
+              >
+                <a href="#"
+                  >5. Enhance efficiency with streamlined communication and
+                  documentation</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <figure class="mt-8">
+          <img
+            src="./assets/icon/product-flowchart.png"
+            alt="product flowchart"
+          />
+          <figcaption
+            class="max-w-[585px] text-center m-auto font-ui font-normal text-base text-slate-tint italic"
+          >
+            Break down tasks, assign resources, and track progress on product
+            ops with ClickUp’s Product Roadmap Template
+          </figcaption>
+        </figure>
+      </div>
+      <!-- content section end -->
+
+      <div
+        class="p-2 md:px-8 lg:px-30 pt-11 pb-16 border border-border-1/20 rounded-5xl relative"
+      >
+        <div class="flex justify-between items-center font-ui">
+          <div class="flex items-center gap-[22px]">
+            <div class="w-[62px] h-[62px] rounded-[18px] p-[14px] bg-folder">
+              <img src="./assets/icon/blog.png" alt="blog image" />
+            </div>
+            <h2 class="text-[28px] leading-10 font-bold text-border-1">
+              Recent Articles
+            </h2>
+          </div>
+          <div class="flex items-center gap-4">
+            <div
+              class="w-11 h-11 bg-white rounded-full flex items-center justify-center drop-shadow opacity-50"
+            >
+              <img src="./assets/icon/left-arrow.png" alt="left arrow" />
+            </div>
+            <div
+              class="w-11 h-11 bg-white rounded-full flex items-center justify-center drop-shadow"
+            >
+              <img src="./assets/icon/right-arrow.png" alt="right arrow" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex md:flex-row flex-col lg:gap-6 md:gap-5 gap-4 relative z-50 bg-white mt-14"
+        >
+          <div class="w-full border border-border-1/20 rounded-[32px] p-4">
+            <div
+              class="bg-[#E8F0FE] rounded-[32px] min-h-[305px] flex items-center justify-center"
+            >
+              <img src="./assets/icon/blog-5.png" alt="blog images" />
+            </div>
+            <h4
+              class="mt-6 text-xs text-regal-blue uppercase font-ui font-semibold"
+            >
+              Project Management
+            </h4>
+            <h3 class="mt-2 text-xl text-night-sky font-bold font-ui">
+              Scrum Master vs. Project Manager: What's the Difference?
+            </h3>
+            <div class="mt-5 flex xl:flex-row flex-col justify-between pb-3">
+              <div
+                class="flex items-center gap-3 xl:order-1 order-2 pt-3 xl:pt-0"
+              >
+                <img src="./assets/icon/erica.png" alt="Erica images" />
+                <h6 class="text-sm font-normal">Erica Dias</h6>
+              </div>
+              <div
+                class="flex items-center gap-2 mt-2 xl:mt-0 xl:order-2 order-1"
+              >
+                <img src="./assets/icon/clock.png" alt="Clock images" />
+                <h6 class="text-sm font-normal font-ui text-slate-tint">
+                  Max 11min read
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="w-full border border-border-1/20 rounded-[32px] p-4">
+            <div
+              class="bg-[#E8F0FE] rounded-[32px] min-h-[305px] flex items-center justify-center"
+            >
+              <img src="./assets/icon/blog-6.png" alt="blog images" />
+            </div>
+            <h4
+              class="mt-6 text-xs text-regal-blue uppercase font-ui font-semibold"
+            >
+              Project Management
+            </h4>
+            <h3 class="mt-2 text-xl text-night-sky font-bold font-ui">
+              Scrum Master vs. Project Manager: What's the Difference?
+            </h3>
+            <div class="mt-5 flex xl:flex-row flex-col justify-between pb-3">
+              <div
+                class="flex items-center gap-3 xl:order-1 order-2 pt-3 xl:pt-0"
+              >
+                <img src="./assets/icon/erica.png" alt="Erica images" />
+                <h6 class="text-sm font-normal">Erica Dias</h6>
+              </div>
+              <div
+                class="flex items-center gap-2 mt-2 xl:mt-0 xl:order-2 order-1"
+              >
+                <img src="./assets/icon/clock.png" alt="Clock images" />
+                <h6 class="text-sm font-normal font-ui text-slate-tint">
+                  Max 11min read
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="w-full border border-border-1/20 rounded-[32px] p-4">
+            <div
+              class="bg-[#E8F0FE] rounded-[32px] min-h-[305px] flex items-center justify-center"
+            >
+              <img src="./assets/icon/blog-7.png" alt="blog images" />
+            </div>
+            <h4
+              class="mt-6 text-xs text-regal-blue uppercase font-ui font-semibold"
+            >
+              Project Management
+            </h4>
+            <h3 class="mt-2 text-xl text-night-sky font-bold font-ui">
+              Scrum Master vs. Project Manager: What's the Difference?
+            </h3>
+            <div class="mt-5 flex xl:flex-row flex-col justify-between pb-3">
+              <div
+                class="flex items-center gap-3 xl:order-1 order-2 pt-3 xl:pt-0"
+              >
+                <img src="./assets/icon/erica.png" alt="Erica images" />
+                <h6 class="text-sm font-normal">Erica Dias</h6>
+              </div>
+              <div
+                class="flex items-center gap-2 mt-2 xl:mt-0 xl:order-2 order-1"
+              >
+                <img src="./assets/icon/clock.png" alt="Clock images" />
+                <h6 class="text-sm font-normal font-ui text-slate-tint">
+                  Max 11min read
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Built for education section start -->
+      <div
+        class="pl-8 lg:pl-24 pt-14 pb-10 pr-11 md:flex items-start rounded-5xl mt-9 bg-sky-1/10 relative"
+      >
+        <img
+          class="absolute -top-3 right-9"
+          src="./assets/icon/Titik-titik-3.png"
+          alt="Titik titik image"
+        />
+        <div class="w-full md:w-1/2">
+          <h2 class="font-bold text-2xl sm:text-3xl md:text-[40px] leading-12">
+            Built for educators
+          </h2>
+          <p class="font-normal text-base sm:text-lg md:text-xl mt-5">
+            Educators are the backbone of education, so we're here for you! And
+            since we're both serious about education, let's make it official.
+            Try Ilmiya for free today.
+          </p>
+        </div>
+        <div
+          class="w-full md:w-1/2 flex justify-start md:justify-end items-end mt-10 md:mt-36"
+        >
+          <a
+            href="#"
+            class="font-normal text-xl sm:text-3xl md:text-[40px] leading-12 text-regal-blue flex items-center gap-[18px] tracking-widest"
+          >
+            Get Started
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Built for education section end -->
+
+      <!-- Footer Section start -->
+
+      <footer class="w-full pt-[75px] pb-8">
+        <div
+          class="md:px-8 lg:px-30 pb-8 lg:pb-0 lg:flex items-start justify-between border-b border-border-1/10 font-normal text-base"
+        >
+          <div class="lg:w-1/2 w-full">
+            <a href="#"
+              ><img class="pb-5" src="./assets/icon/logo.png" alt="Logo image"
+            /></a>
+
+            <div class="flex items-start gap-5 pb-6">
+              <i
+                ><img src="./assets/icon/location.png" alt="location icon"
+              /></i>
+              <p>
+                3800 American Blvd West <br />
+                Suite 1500 Bloomington, MN 55431
+              </p>
+            </div>
+            <div class="flex items-start gap-5 pb-8">
+              <i><img src="./assets/icon/phone.png" alt="Phone icon" /></i>
+              <h4>+1 866-545-6492</h4>
+            </div>
+            <div class="flex items-center gap-3 pb-16">
+              <i
+                class="cursor-pointer w-6 h-6 bg-sky-1/15 rounded-full flex items-center justify-center"
+                ><img src="./assets/icon/facebook.png" alt="facebook icon"
+              /></i>
+              <i
+                class="cursor-pointer w-6 h-6 bg-sky-1/15 rounded-full flex items-center justify-center"
+                ><img src="./assets/icon/twitter.png" alt="twitter icon"
+              /></i>
+              <i
+                class="cursor-pointer w-6 h-6 bg-sky-1/15 rounded-full flex items-center justify-center"
+                ><img src="./assets/icon/linkedin.png" alt="linkedin icon"
+              /></i>
+              <i
+                class="cursor-pointer w-6 h-6 bg-sky-1/15 rounded-full flex items-center justify-center"
+                ><img src="./assets/icon/instagram.png" alt="instagram icon"
+              /></i>
+            </div>
+          </div>
+          <div
+            class="lg:w-1/2 w-full flex sm:flex-row flex-col items-center sm:items-start justify-between gap-8"
+          >
+            <div
+              class="flex flex-col gap-4 items-center md:items-start justify-center"
+            >
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Company</a
+              >
+              <a href="#">About Us</a>
+              <a href="#">Pricing</a>
+            </div>
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Resources
+              </a>
+              <a href="#">Support</a>
+              <a href="#">Sales</a>
+              <a href="#">Stauts</a>
+            </div>
+            <div class="flex flex-col gap-4 items-center md:items-start">
+              <a class="text-border-1/50 font-medium leading-5" href="#"
+                >Legal
+              </a>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">COPPA</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:px-8 lg:px-30 sm:flex items-center justify-between pt-8 text-center"
+        >
+          <div class="sm:w-1/2 pb-4 sm:pb-0 sm:text-start">
+            <p>&#169;2023 Ilmiya, Inc.</p>
+          </div>
+          <div class="sm:w-1/2 flex sm:flex-row flex-col gap-4 sm:gap-8">
+            <p>Privacy Policy</p>
+            <p>Terms &#38; Conditions</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Footer Section end -->
+    </main>
+  </body>
+</html>
