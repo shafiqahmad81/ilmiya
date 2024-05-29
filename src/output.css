@@ -716,6 +716,10 @@ html,
   z-index: 50;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .order-1 {
   order: 1;
 }
@@ -1588,6 +1592,10 @@ html,
   padding-bottom: 15rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2394,6 +2402,10 @@ html,
     margin-top: 0px;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2525,6 +2537,14 @@ html,
 
   .md\:pl-18 {
     padding-left: 4.375rem;
+  }
+
+  .md\:pt-\[76px\] {
+    padding-top: 76px;
+  }
+
+  .md\:pb-\[135px\] {
+    padding-bottom: 135px;
   }
 
   .md\:text-5\.5xl {

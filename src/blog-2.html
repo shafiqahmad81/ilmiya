@@ -54,6 +54,7 @@
           </button>
         </div>
         <svg
+          id="hamburger-button"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -69,7 +70,10 @@
         </svg>
 
         <!-- Responsive Mobile nav start -->
-        <div class="hidden absolute w-full h-screen bg-slate-400 top-0 left-0">
+        <div
+          id="mobile-nav"
+          class="hidden fixed z-50 w-full h-screen bg-slate-400 top-0 left-0"
+        >
           <div class="bg-slate-400 bg-transparent w-full mt-5">
             <img
               class="lg:hidden m-auto"
@@ -81,10 +85,14 @@
           <nav class="lg:hidden w-full">
             <ul class="flex flex-col items-center gap-5 mt-5">
               <li>
-                <a class="text-sm font-bold leading-4" href="#">Blog</a>
+                <a class="text-sm font-bold leading-4" href="./index.html"
+                  >Blog</a
+                >
               </li>
               <li>
-                <a class="text-sm font-bold leading-4" href="#">Docs</a>
+                <a class="text-sm font-bold leading-4 text-regal-blue" href="#"
+                  >Docs</a
+                >
               </li>
               <li>
                 <a class="text-sm font-bold leading-4" href="#">Pricing</a>
@@ -106,6 +114,22 @@
               Book a Demo
             </button>
           </div>
+          <button id="close-button" class="absolute top-5 right-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
         <!-- Responsive Mobile nav end -->
       </header>
@@ -156,20 +180,20 @@
 
           <div class="flex items-center gap-3 pb-16 mt-14">
             <i
-              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-40"
               ><img src="./assets/icon/social-twitter.png" alt="facebook icon"
             /></i>
 
             <i
-              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-40"
               ><img src="./assets/icon/social-linkedin.png" alt="facebook icon"
             /></i>
             <i
-              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-40"
               ><img src="./assets/icon/social-facebook.png" alt="facebook icon"
             /></i>
             <i
-              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-50"
+              class="cursor-pointer w-15 h-15 bg-white rounded-full flex items-center justify-center relative z-40"
               ><img src="./assets/icon/share-icon.png" alt="facebook icon"
             /></i>
           </div>
@@ -405,7 +429,7 @@
         </div>
 
         <div
-          class="flex md:flex-row flex-col lg:gap-6 md:gap-5 gap-4 relative z-50 bg-white mt-14"
+          class="flex md:flex-row flex-col lg:gap-6 md:gap-5 gap-4 relative z-40 bg-white mt-14"
         >
           <div class="w-full border border-border-1/20 rounded-[32px] p-4">
             <div
@@ -637,5 +661,6 @@
 
       <!-- Footer Section end -->
     </main>
+    <script src="./assets/js/main-script.js"></script>
   </body>
 </html>
