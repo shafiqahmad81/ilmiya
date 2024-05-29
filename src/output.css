@@ -608,6 +608,10 @@ html,
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -668,6 +672,10 @@ html,
   right: 1rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
 .right-9 {
   right: 2.25rem;
 }
@@ -682,6 +690,10 @@ html,
 
 .top-10 {
   top: 2.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
 }
 
 .-z-10 {
@@ -843,12 +855,21 @@ html,
   margin-top: 92px;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .h-11 {
@@ -2488,6 +2509,10 @@ html,
 
   .md\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .md\:pl-18 {
+    padding-left: 4.375rem;
   }
 
   .md\:text-5\.5xl {

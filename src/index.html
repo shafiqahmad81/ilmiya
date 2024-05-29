@@ -50,12 +50,13 @@
           </button>
         </div>
         <svg
+          id="hamburger-button"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6 md:hidden"
+          class="w-6 h-6 block md:hidden"
         >
           <path
             stroke-linecap="round"
@@ -65,7 +66,10 @@
         </svg>
 
         <!-- Responsive Mobile nav start -->
-        <div class="hidden absolute w-full h-screen bg-slate-400 top-0 left-0">
+        <div
+          id="mobile-nav"
+          class="hidden fixed w-full h-screen bg-slate-400 top-0 left-0 z-50"
+        >
           <div class="bg-slate-400 bg-transparent w-full mt-5">
             <img
               class="lg:hidden m-auto"
@@ -102,6 +106,23 @@
               Book a Demo
             </button>
           </div>
+
+          <button id="close-button" class="absolute top-5 right-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
         <!-- Responsive Mobile nav end -->
       </header>
@@ -114,17 +135,17 @@
       >
         <div class="lg:w-[54.2963%] md:min-w-max pr-[54px]">
           <h1
-            class="font-bold text-4xl md:text-5.5xl md:leading-[67.2px] pl-18"
+            class="font-bold text-4xl md:text-5.5xl md:leading-[67.2px] md:pl-18"
           >
             <span class="bg-[#F1C159] px-3 rounded-xl -ml-3">Education</span>
             <br />
             Infrastructure
           </h1>
-          <p class="mt-[43px] font-normal text-xl pl-18 text-border-1">
+          <p class="mt-[43px] font-normal text-xl text-border-1 md:pl-18">
             Immersive, intelligent infrastructure for K12 AI <br />
             powered personalized learning.
           </p>
-          <div class="flex sm:flex-row flex-col gap-4 mt-12 pl-18">
+          <div class="flex sm:flex-row flex-col gap-4 mt-12 md:pl-18">
             <button
               class="px-[32.5px] py-4 border text-xl font-bold leading-6 border-[#4083F1] rounded-full bg-regal-blue text-white duration-500"
             >
@@ -1114,5 +1135,6 @@
 
       <!-- Footer Section end -->
     </main>
+    <script src="./assets/js/main-script.js"></script>
   </body>
 </html>
